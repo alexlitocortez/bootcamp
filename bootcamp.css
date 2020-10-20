@@ -27,6 +27,19 @@ html {
     top: 80px;
 }
 
+/* Button */
+
+button {
+    position: absolute;
+    bottom: -20px;
+    left: 60px;
+    width: 107px;
+    height: 56px;
+    border-radius: 30px;
+    border: none;
+    background: white;
+}
+
 /* Divs */
 
 .inner-text {
@@ -64,4 +77,8 @@ html {
     width: 50%;
     padding-right: 5.75rem;
     z-index: 999;
+}
+
+.images {
+    box-shadow: 6px 14px 15px -10px hsl(240, 38%, 20%);
 }
