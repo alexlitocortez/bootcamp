@@ -9,35 +9,51 @@
 <body>
     <section class="carousel">
         <div class="inner">
-            <div class="text">
+            <div class="text" id="first">
+                 <img class="quotes" src="images/pattern-quotes.svg" alt="pattern-quotes">
+                 <img class="pattern" src="images/pattern-curve.svg" alt="pattern-curve">
+                 <img class="bg" src="images/pattern-bg.svg" alt="pattern-bg">
+            </div>
+            <!-- Tanya's section -->
 
-                <!-- Javascript will upload the content -->
-                <p class="paragraph">"I've been interested in coding for a while but never taken the jump, until now.
+            <section id="first-profile">
+                <p class="paragraph" id="one">"I've been interested in coding for a while but never taken the jump, until now.
                     I couldn't recommend this course enough. I'm now in the job of my dreams and
                     so excited about the future."
                 </p>
-                <img class="quotes" src="images/pattern-quotes.svg" alt="pattern-quotes">
-                <img class="pattern" src="images/pattern-curve.svg" alt="pattern-curve">
-                <img class="bg" src="images/pattern-bg.svg" alt="pattern-bg">
-                    <div class="inner-text">
 
-                        <!-- Javascript will upload the content -->
-                        <p class="tanya">Tanya Sinclair</p>
-                        <p class="ux">UX Engineer</p>
-                    </div>
-            </div>
-            <div class="image">
-                <img class="images" src="images/image-tanya.jpg" alt="Tanya">
-                <div>
-                    <button></button>
+                <p id="tanya-inner-text">
+                    <strong>Tanya Sinclair</strong><small>UX Engineer</small>
+                </p>
+
+                <img class="images" id="images-one" src="images/image-tanya.jpg" alt="Tanya">
+                <div class="button">
+                    <img src="img/icon-prev.svg" alt="icon-prev"  id="button-prev" onclick="changeProfile()" class="btnSlide">
+                    <img src="img/icon-next.svg" alt="icon-next" id="button-next" onclick="changeProfile()"  class="btnSlide">
                 </div>
-            </div>
-        <script src="js/bootcamp.js"></script>
+            </section>
+
+            <!-- John's section -->
+
+            <section id="second-profile">
+                <p class="paragraph" id="two">"If you want to lay the best foundation possible I'd recommend taking this course.
+                    The depth the instructors go into is incredible. I now feel so confident about starting up as a professional
+                    developer."
+                </p>
+
+                <p id="john-inner-text">
+                    <strong>John Tarkpor</strong><small>Junior Front-end Developer</small>
+                </p>        
+
+                <img class="images" id="images-two" src="images/image-john.jpg" alt="John">
+
+                <div class="button">
+                    <img src="images/icon-prev.svg" alt="icon-prev" id="button-prev" onclick="changeProfile()" class="btnSlide">
+                    <img src="images/icon-next.svg" alt="icon-next" id="button-next" onclick="changeProfile()" class="btnSlide">
+                </div>  
+            </section>  
+        <script src="bootcamp.js"></script>
         </div>
     </section>
 </body>
 </html>
-
-<!-- For tomorrow, make just focus on the background images placing, button, and then focus on the
-Javascript coding -->
-
